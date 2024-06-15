@@ -1,0 +1,4 @@
+ip = "0.0.0.0"
+port = "8080"
+custom_header_key = "Content-Security-Policy"
+custom_header_value = "default-src 'self'; style-src 'self'; script-src 'nonce-Y9hZPQrVBZhw6dFMaWf2oQ'; img-src 'self' https://http.cat/ data: blob:; font-src 'self' https://fonts.bunny.net/"

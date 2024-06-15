@@ -1,0 +1,24 @@
+{
+	"devDependencies": {
+		"@iconify-json/simple-icons": "^1.1.103",
+		"@unocss/postcss": "^0.60.3",
+		"@unocss/preset-attributify": "^0.60.3",
+		"@unocss/preset-icons": "^0.60.3",
+		"@unocss/preset-tagify": "^0.60.3",
+		"@unocss/preset-typography": "^0.60.3",
+		"@unocss/preset-web-fonts": "^0.60.3",
+		"@unocss/transformer-compile-class": "^0.60.3",
+		"@unocss/transformer-directives": "^0.60.3",
+		"autoprefixer": "^10.4.19",
+		"cssnano": "^7.0.1",
+		"postcss": "^8.4.38",
+		"postcss-cli": "^11.0.0",
+		"postcss-nested": "^6.0.1",
+		"postcss-scss": "^4.0.9",
+		"unocss": "^0.60.3",
+		"unocss-catppuccin": "^1.0.1"
+	},
+	"dependencies": {
+		"portfolio-frontend": "link:"
+	}
+}

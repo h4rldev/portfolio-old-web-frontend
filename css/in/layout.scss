@@ -1,0 +1,41 @@
+@unocss all;
+
+* {
+  @apply p0 m0;
+}
+
+html {
+  @apply flex flex-col items-center;
+  @apply text-puccin-crust font-alata bg-puccin-base;
+}
+
+body {
+  @apply w-[800px] h-[600px] bg-gradient-to-t from-puccin-blue via-puccin-lavender to-puccin-sapphire shadow-lg backdrop-blur-2xl;
+}
+
+header {
+  @apply p10 flex flex-col items-center gap2;
+  nav {
+    @apply min-w-full;
+    ol {
+      @apply bg-gradient-to-r from-puccin-lavender via-puccin-blue to-puccin-mauve rounded-2xl flex flex-row justify-center gap2 list-none py1 min-w-full shadow-xl;
+      li {
+        @apply transition ease-in-out z-1 duration-300 relative inline-block;
+        a {
+          @apply text-puccin-crust;
+        }
+      }
+      li::before {
+        content: "";
+        @apply bg-inherit bottom-0 right-0 left-0 top-0 absolute -z-1 transition duration-300 ease-in-out;
+      }
+      li:hover::before {
+        @apply blur-md bg-puccin-mauve;
+      }
+    }
+  }
+}
+
+section {
+  @apply p10;
+}

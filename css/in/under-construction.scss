@@ -1,0 +1,21 @@
+@unocss all;
+
+main {
+  @apply flex flex-col items-center;
+}
+
+h1 {
+  @apply text-puccin-text font-alata text-3xl p8;
+}
+
+img {
+  @apply w-80;
+}
+
+p {
+  @apply text-puccin-text font-alata text-center p4;
+  span {
+    @apply font-jetbrains;
+  }
+}
+
